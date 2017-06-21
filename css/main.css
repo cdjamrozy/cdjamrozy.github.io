@@ -8,11 +8,13 @@
 
 .bg-2 {
     background-color: #474e5d;
+    /*background-color: #247BA0;*/
     color: #ffffff;
 }
 
 .bg-3 {
     background-color: #ffffff;
+    /*background-color: #E2E2E2;*/
     color: #555555;
 }
 
@@ -28,7 +30,7 @@
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .navbar-nav li a:hover{
@@ -36,10 +38,15 @@
 }
 
 .bg-4 {
-    background-color: #2f2f2f;
+    /*background-color: #2f2f2f;*/
+    background-color: #605F5E;
     color: #ffffff;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    letter-spacing: 3px;
 }

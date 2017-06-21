@@ -20,6 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">Christopher Jamrozy</a>
         </div>
@@ -28,6 +29,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="html/resume.html">Resume</a></li>
             </ul>
         </div>
     </div>
@@ -38,38 +40,63 @@
         <div class="col-sm-6">
             <img src="assets/polska1.jpg" alt="Me" class="img-thumbnail img-responsive" style="display:inline; width:50%;">
         </div>
-        <div class="col-sm-6">
-            <h3>About Me</h3>
-            <p>Lorem ipsum...</p>
-            <a href="html/resume.html" class="btn btn-default btn-lg">
-            <span class="glyphicon glyphicon-file"></span>Resume</a>
+        <div class="col-sm-4">
+            <h3>ABOUT ME</h3>
+            <p>I am a student at the University of Urbana Champaign studying computer science. I've always been
+            interested computers and technology, and I started programming when I started high school, leading
+            me to major in computer science. I was born and raised in the Chicagoland area, but also have strong connections
+            to southeast Poland, where my parents are from and where the majority of my family still lives. I speak both English 
+            and Polish, as well as Spanish. Apart from programming, I have strong interests in music and sports. I played both
+            piano and percussion, and love almost every sport, with my favorites being basketball and soccer.</p>
         </div>
     </div>
 </div>
     
 <div class="container-fluid bg-3 text-center" id="projects">
-    <h3>Projects</h3>
+    <h3>PROJECTS</h3>
     <div class="row">
         <div class="col-sm-4">
-            <h5>Novascape</h5>
-            <p></p>
+            <h5><strong>Novascape</strong></h5>
+            <hr />
             <img src="assets/unity_game.png" class="img-responsive" style="width:100%;">
+            <p>Novascape is a 2D game built in Unity that focuses around a character stuck in a galaxy
+            that soon could get destroyed. The character starts on one planet, and travels from planet to planet
+            trying to get the necessary resources to build a spaceship and escape the galaxy. The game features procedural
+            planet generation for all the planets, which includes resource allocations within the planets and cave generation.</p>
         </div>
         <div class="col-sm-4">
-            <h5>Food Database</h5>
-            <p></p>
+            <h5><strong>Food Database</strong></h5>
+            <hr />
             <img src="assets/database_project.png" class="img-responsive" style="width:100%;">
+            <p>The food database was an application built by starting with the Wikipedia dataset and extracting
+            the food pages into our database. The user can search through all the foods in the database, and get
+            relevant information such as where the food originates from and a link to the Wikipedia article for more information
+            on the food. The application also features a recipe recommendation system using the user's search history and 
+            parameters that the user can set, and a map as a visualization of the origins of all the food in the database.</p>
         </div>
         <div class="col-sm-4">
-            <h5>Better Grade System</h5>
-            <p></p>
+            <h5><strong>Grade.Me</strong></h5>
+            <hr />
             <img src="assets/grade_project.png" class="img-responsive" style="width:100%;">
+            <p>Grade.Me was built to be a better gradebook than the ones currently offered by the school. Grade.Me includes
+            useful features not seen in other solutions for both professors and students. Grade.Me has a simple, integrated 
+            design making it easy for a student to see all their grades in one place and an instructor to see in an easy glance
+            how the class is doing. It also includes a grade predictor system for students, who can change future grades that
+            have not happened yet to see how it impacts their grades. For instructors, it also includes a simple grade adjustment
+            system, so that instructors can easily apply changes to the class and visually see how it changes the grades. Grade.Me
+            focuses on data and visualization, and includes many graphs and statisitcs that students and instructors should expect 
+            in a grade system.</p>
         </div>
     </div>
 </div>
-    
-<footer class="container-fluid bg-4 text-center">
-    <p>Something about me</p>
+
+<footer class="container-fluid bg-4 text-center" id="contact">
+    <h3>CONTACT</h3>
+    <p><span class="glyphicon glyphicon-envelope"></span>  jamrozy2@illinois.edu</p>
+    <p><span class="glyphicon glyphicon-earphone"></span>  (630) 605-2093</p>
+    <p><span class="glyphicon glyphicon-map-marker"></span>  Naperville, IL 60565</p>
+    <a href="html/resume.html" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-file"></span>Resume</a>
 </footer>
 </body>
 </html>
